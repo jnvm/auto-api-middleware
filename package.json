@@ -1,6 +1,6 @@
 {
   "name": "auto-api-middleware",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "map specific model methods to json endpoints that plugs in query parameters as inputs and return results",
   "main": "handler.js",
   "scripts": {

@@ -30,7 +30,7 @@ var Model={
 }
 ```
 That would create these JSON routes:
-```javascript
+```
 /json/book/getPage
 /json/book/getWordsByFrequency
 /json/book/fetchCover
