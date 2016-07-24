@@ -1,7 +1,7 @@
 {
   "name": "auto-api-middleware",
-  "version": "0.5.2",
-  "description": "map specific model methods to json endpoints that plugs in query parameters as inputs and return results",
+  "version": "0.5.3",
+  "description": "map object methods to json endpoints, plugging in named parameters if present",
   "main": "handler.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,7 +14,9 @@
     "simple",
     "json",
     "method",
-    "map"
+    "map",
+    "auto",
+    "route"
   ],
   "author": "Joη <j@nvm.io> (http://nvm.io)",
   "license": "MIT",
