@@ -4,10 +4,10 @@ module.exports=function init(opts){
 
 	_.defaults(opts,{
 		beHelpful:false
-		,methodMap:(key,value)=>_.castArray(
+		,methodMap:(key,value)=>_(
 			(key.match(/^(get|gather|find|fetch)/gi) || !_.isFunction(value) ? "GET"
 			: key.match(/POST|GET|PUT|PATCH|DELETE/i)
-			) || "POST").first()
+			) || "POST").castArray().first()
 		,filter:(key,val)=>!(key[0]=='_' || val.priv || val.private)
 		,source:{}
 		,before:()=>{}

@@ -1,6 +1,6 @@
 {
   "name": "auto-api-middleware",
-  "version": "0.5.3",
+  "version": "0.5.4",
   "description": "map object methods to json endpoints, plugging in named parameters if present",
   "main": "handler.js",
   "scripts": {
